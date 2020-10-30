@@ -10,4 +10,4 @@ saldrá Acierto o error en función de si es la respuesta correcta o no.
 * Si aciertas la pregunta se te suman 10 pts.
 * Si fallas la pregunta se te restan 5 pts.
 * La puntuación final es la suma de todos los puntos que has sacada en cada pregunta.
-* <img width="475" height="300" src="Captura de pantalla de 2020-10-30 12-51-07.png"/>
+<img width="475" height="300" src="Captura de pantalla de 2020-10-30 12-51-07.png"/>
