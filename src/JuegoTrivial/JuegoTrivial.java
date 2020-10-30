@@ -54,7 +54,7 @@ public static void main(String[] args) {
 	int num3;
 	int num4 = 2; 
 	
-	String str1 = JOptionPane.showInputDialog("Introduce un número entero: ");
+	String str1 = JOptionPane.showInputDialog("Introduce el número de la respuesta: ");
 	num3 = Integer.parseInt(str1);
 	
 	if (num3==num4){
@@ -76,7 +76,7 @@ public static void main(String[] args) {
 	int num5;
 	int num6 = 4; 
 	
-	String str2 = JOptionPane.showInputDialog("Introduce un número entero: ");
+	String str2 = JOptionPane.showInputDialog("Introduce el número de la respuesta: ");
 	num5 = Integer.parseInt(str2);
 	
 	if (num5==num6){
@@ -96,9 +96,9 @@ public static void main(String[] args) {
 	System.out.println("d) Memoria");
 	
 	int num7;
-	int num8 = 4; 
+	int num8 = 1; 
 	
-	String str3 = JOptionPane.showInputDialog("Introduce un número entero: ");
+	String str3 = JOptionPane.showInputDialog("Introduce el número de la respuesta: ");
 	num7 = Integer.parseInt(str3);
 	
 	if (num7==num8){
@@ -119,9 +119,9 @@ public static void main(String[] args) {
 	System.out.println("d) Armamentístico");
 	
 	int num9;
-	int num10 = 4; 
+	int num10 = 2; 
 	
-	String str4 = JOptionPane.showInputDialog("Introduce un número entero: ");
+	String str4 = JOptionPane.showInputDialog("Introduce el número de la respuesta: ");
 	num9 = Integer.parseInt(str4);
 	
 	if (num9==num10){
@@ -141,9 +141,9 @@ public static void main(String[] args) {
 	System.out.println("d) Zócalo");
 	
 	int num11;
-	int num12 = 4; 
+	int num12 = 3; 
 	
-	String str5 = JOptionPane.showInputDialog("Introduce un número entero: ");
+	String str5 = JOptionPane.showInputDialog("Introduce el número de la respuesta: ");
 	num11 = Integer.parseInt(str5);
 	
 	if (num11==num12){
@@ -163,9 +163,9 @@ public static void main(String[] args) {
 	System.out.println("d) 200 caracteres");
 	
 	int num13;
-	int num14 = 4; 
+	int num14 = 2; 
 	
-	String str6 = JOptionPane.showInputDialog("Introduce un número entero: ");
+	String str6 = JOptionPane.showInputDialog("Introduce el número de la respuesta: ");
 	num13 = Integer.parseInt(str6);
 	
 	if (num13==num14){
@@ -187,7 +187,7 @@ public static void main(String[] args) {
 	int num15;
 	int num16 = 4; 
 	
-	String str7 = JOptionPane.showInputDialog("Introduce un número entero: ");
+	String str7 = JOptionPane.showInputDialog("Introduce el número de la respuesta: ");
 	num15 = Integer.parseInt(str7);
 	
 	if (num15==num16){
@@ -200,16 +200,16 @@ public static void main(String[] args) {
 	}
 	
 	
-	System.out.println("");
-	System.out.println("");
-	System.out.println("");
-	System.out.println("");
-	System.out.println("");
+	System.out.println("9.- ¿Cuál de las siguientes asociaciones es indebida?");
+	System.out.println("a) Bill Gates con Windows");
+	System.out.println("b) Steve Jobs con Apple");
+	System.out.println("c) Mark Zuckerberg con Google");
+	System.out.println("d) Todas las asociaciones son debidas o correctas");
 	
 	int num17;
-	int num18 = 4; 
+	int num18 = 3; 
 	
-	String str8 = JOptionPane.showInputDialog("Introduce un número entero: ");
+	String str8 = JOptionPane.showInputDialog("Introduce el número de la respuesta: ");
 	num17 = Integer.parseInt(str8);
 	
 	if (num17==num18){
@@ -222,16 +222,16 @@ public static void main(String[] args) {
 	}
 	
 	
-	System.out.println("");
-	System.out.println("");
-	System.out.println("");
-	System.out.println("");
-	System.out.println("");
+	System.out.println("10.- Las primeras computadoras, comúnmente denominadas Computadora Personal o PC aparecen en la década de ...");
+	System.out.println("a) Los ochenta");
+	System.out.println("b) Los cincuenta");
+	System.out.println("c) Los setenta");
+	System.out.println("d) Los noventa");
 	
 	int num19;
-	int num20 = 4; 
+	int num20 = 1; 
 	
-	String str9 = JOptionPane.showInputDialog("Introduce un número entero: ");
+	String str9 = JOptionPane.showInputDialog("Introduce el número de la respuesta: ");
 	num19 = Integer.parseInt(str9);
 	
 	if (num19==num20){
