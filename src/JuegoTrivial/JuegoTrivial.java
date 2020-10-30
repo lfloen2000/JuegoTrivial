@@ -2,8 +2,9 @@ package JuegoTrivial;
 
 import javax.swing.JOptionPane;
 
-public class JuegoTrivial {
+public class JuegoTrivial { 
 
+public static void main(String[] args) {
 	System.out.println("\n"
 			+ "  ____  _                           _     _   ____       \n"
 			+ " | __ )(_) ___ _ ____   _____ _ __ (_) __| | / __ \\ ___  \n"
@@ -21,7 +22,7 @@ public class JuegoTrivial {
 			+ "                                                                         \n"
 			+ "");
 	
-	
+	int puntuacion = 0;
 	System.out.println("1.- ¿Cuál de las siguientes afirmaciones es incorrecta en relación al concepto de informática?");
 	System.out.println("a) En Latinoamérica, se utiliza como sinónimo la palabra computación, que proviene de cómputo (o cálculo).");
 	System.out.println("b) La informática es la ciencia que estudia el tratamiento automático de la información por medio de computadoras.");
@@ -35,9 +36,11 @@ public class JuegoTrivial {
 	
 	if (num1==num2){
 		System.out.println("Acierto");
+		puntuacion += 10;
 	}
 	else {
 		System.out.println("Error");
+		puntuacion += -5;
 	}
 	
 	
@@ -56,9 +59,11 @@ public class JuegoTrivial {
 	
 	if (num3==num4){
 		System.out.println("Acierto");
+		puntuacion += 10;
 	}
 	else {
 		System.out.println("Error");
+		puntuacion += -5;
 	}
 	
 	
@@ -76,9 +81,11 @@ public class JuegoTrivial {
 	
 	if (num5==num6){
 		System.out.println("Acierto");
+		puntuacion += 10;
 	}
 	else {
 		System.out.println("Error");
+		puntuacion += -5;
 	}
 	
 	
@@ -88,6 +95,21 @@ public class JuegoTrivial {
 	System.out.println("c) Bios");
 	System.out.println("d) Memoria");
 	
+	int num7;
+	int num8 = 4; 
+	
+	String str3 = JOptionPane.showInputDialog("Introduce un número entero: ");
+	num7 = Integer.parseInt(str3);
+	
+	if (num7==num8){
+		System.out.println("Acierto");
+		puntuacion += 10;
+	}
+	else {
+		System.out.println("Error");
+		puntuacion += -5;
+	}
+	
 	
 	
 	System.out.println("5.- Recientemente las Tecnologías de la Información y la Comunicación (TIC), están revolucionando especialmente al sector ...");
@@ -96,12 +118,42 @@ public class JuegoTrivial {
 	System.out.println("c) De la robótica");
 	System.out.println("d) Armamentístico");
 	
+	int num9;
+	int num10 = 4; 
+	
+	String str4 = JOptionPane.showInputDialog("Introduce un número entero: ");
+	num9 = Integer.parseInt(str4);
+	
+	if (num9==num10){
+		System.out.println("Acierto");
+		puntuacion += 10;
+	}
+	else {
+		System.out.println("Error");
+		puntuacion += -5;
+	}
+	
 	
 	System.out.println("6.- Sistema digital que transfiere datos entre los componentes de una computadora o entre varias computadoras. Está formado por cables o pistas en un circuito impreso, dispositivos como resistores y condensadores además de circuitos integrados.");
 	System.out.println("a) Sistema Operativo");
 	System.out.println("b) Chip");
 	System.out.println("c) Bus");
 	System.out.println("d) Zócalo");
+	
+	int num11;
+	int num12 = 4; 
+	
+	String str5 = JOptionPane.showInputDialog("Introduce un número entero: ");
+	num11 = Integer.parseInt(str5);
+	
+	if (num11==num12){
+		System.out.println("Acierto");
+		puntuacion += 10;
+	}
+	else {
+		System.out.println("Error");
+		puntuacion += -5;
+	}
 	
 	
 	System.out.println("7.- La icónica red social de mensajes cortos, Twitter, ha anunciado que aumentará el límite de los caracteres de los mensajes de la plataforma desde 140 a ...");
@@ -110,6 +162,21 @@ public class JuegoTrivial {
 	System.out.println("c) 180 caracteres");
 	System.out.println("d) 200 caracteres");
 	
+	int num13;
+	int num14 = 4; 
+	
+	String str6 = JOptionPane.showInputDialog("Introduce un número entero: ");
+	num13 = Integer.parseInt(str6);
+	
+	if (num13==num14){
+		System.out.println("Acierto");
+		puntuacion += 10;
+	}
+	else {
+		System.out.println("Error");
+		puntuacion += -5;
+	}
+	
 	
 	System.out.println("8.- ¿Cuál de los siguientes personajes relevantes de la historia de la informática terminó su formación universitaria?");
 	System.out.println("a) Bill Gates");
@@ -117,6 +184,21 @@ public class JuegoTrivial {
 	System.out.println("c) Mark Zuckerberg");
 	System.out.println("d) Ninguno de ellos");
 	
+	int num15;
+	int num16 = 4; 
+	
+	String str7 = JOptionPane.showInputDialog("Introduce un número entero: ");
+	num15 = Integer.parseInt(str7);
+	
+	if (num15==num16){
+		System.out.println("Acierto");
+		puntuacion += 10;
+	}
+	else {
+		System.out.println("Error");
+		puntuacion += -5;
+	}
+	
 	
 	System.out.println("");
 	System.out.println("");
@@ -124,12 +206,45 @@ public class JuegoTrivial {
 	System.out.println("");
 	System.out.println("");
 	
+	int num17;
+	int num18 = 4; 
+	
+	String str8 = JOptionPane.showInputDialog("Introduce un número entero: ");
+	num17 = Integer.parseInt(str8);
+	
+	if (num17==num18){
+		System.out.println("Acierto");
+		puntuacion += 10;
+	}
+	else {
+		System.out.println("Error");
+		puntuacion += -5;
+	}
+	
 	
 	System.out.println("");
 	System.out.println("");
 	System.out.println("");
 	System.out.println("");
 	System.out.println("");
+	
+	int num19;
+	int num20 = 4; 
+	
+	String str9 = JOptionPane.showInputDialog("Introduce un número entero: ");
+	num19 = Integer.parseInt(str9);
+	
+	if (num19==num20){
+		System.out.println("Acierto");
+		puntuacion += 10;
+	}
+	else {
+		System.out.println("Error");
+		puntuacion += -5;
+	}
+	
+	System.out.println(puntuacion);
+	
 }
 }
 
