@@ -1,5 +1,5 @@
 README.md
-<img width="475" height="300" src="Captura de pantalla de 2020-10-30 12-51-07.png"/>
+* <img width="475" height="300" src="Captura de pantalla de 2020-10-30 12-51-07.png"/>
 * Instrucciones para jugar al Trivial
 * Para contestar las preguntas tienes que introducir el numero de la opcion que creas que es correcta y debajo de cada una de las preguntas te
 saldrá Acierto o error en función de si es la respuesta correcta o no.
